@@ -57,7 +57,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
    * Token
    */
   override fun onNewToken(token: String) {
-    Log.d(, "Refreshed token: $token")
+    Log.d(TAG, "Refreshed token: $token")
 
     getSharedPreferences("_", MODE_PRIVATE).edit().putString("fcm_token", token).apply()
   }
