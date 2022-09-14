@@ -49,12 +49,9 @@ import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
 
 class MyFirebaseMessagingService : FirebaseMessagingService() {
-  //private var broadcaster: LocalBroadcastManager? = null
   private val processLater = false
 
-//  override fun onCreate() {
-//    broadcaster = LocalBroadcastManager.getInstance(this)
-//  }
+
 
   /**
    * Token
@@ -90,16 +87,12 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
     handler.post {
       Toast.makeText(baseContext, getString(R.string.handle_notification_now), Toast.LENGTH_LONG).show()
 
-//      remoteMessage.notification?.let {
-//        val intent = Intent("MyData")
-//        intent.putExtra("message", remoteMessage.data["text"])
-//        broadcaster?.sendBroadcast(intent)
+
 //      }
     }
   }
 
-  // Method to get the custom Design for the display of
-  // notification.
+
   private fun getCustomDesign(
     title: String?,
     message: String?
@@ -159,9 +152,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
       .setOnlyAlertOnce(true)
       .setContentIntent(pendingIntent)
 
-    // A customized design for the notification can be
-    // set only for Android versions 4.1 and above. Thus
-    // condition for the same is checked here.
+
     builder = builder.setContent(
       getCustomDesign(title, message)
     )
