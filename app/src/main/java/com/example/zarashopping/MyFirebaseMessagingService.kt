@@ -156,9 +156,6 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
     builder = builder.setContent(
       getCustomDesign(title, message)
     )
-    // Create an object of NotificationManager class to
-    // notify the
-    // user of events that happen in the background.
     val notificationManager = getSystemService(
       NOTIFICATION_SERVICE
     ) as NotificationManager
