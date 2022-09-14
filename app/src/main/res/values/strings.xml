@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ZaraShopping</string>
+    <string name="handle_notification_now">Message</string>
+    <string name="token_error">Error</string>
+    <string name="token_prefix">Token</string>
+    <string name="fetch_remote_welcome_message">fetch remote welcome</string>
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "276755238733",
+    "project_id": "zarashopping-871d3",
+    "storage_bucket": "zarashopping-871d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276755238733:android:77f5ad95a261f021477104",
+        "android_client_info": {
+          "package_name": "com.example.zarashopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276755238733-t69fnice4o415309tf1ji0go4kem05fg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQBphWnYDRqwAmo9dvVU9iIOr0iQvBNyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276755238733-t69fnice4o415309tf1ji0go4kem05fg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
